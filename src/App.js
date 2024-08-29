@@ -1,7 +1,11 @@
+import React from 'react';
+import './App.css';
+import WordDisplay from './components/worddisplay';
+
 function App() {
   return (
     <main>
-      <h1>SatVocab Webapp</h1>
+      <WordDisplay />
     </main>
   );
 }
