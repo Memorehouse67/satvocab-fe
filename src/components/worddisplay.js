@@ -9,7 +9,7 @@ function WordDisplay() {
 
   // Sentences using the word in context
   const sentences = [
-    "The storm finally abated after a week of heavy rain.",
+    "The storm finally abated after a week of heavy rainfalls.",
     "His anger abated as he realized the mistake was not intentional.",
     "The pain in his leg abated after he took some painkillers."
   ];
