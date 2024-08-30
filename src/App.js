@@ -1,13 +1,12 @@
 import React from 'react';
-import './App.css';
-import WordDisplay from './components/worddisplay';
+import VideoPage from './components/VideoPage';
 
 function App() {
-  return (
-    <main>
-      <WordDisplay />
-    </main>
-  );
+    return (
+        <div className="App">
+            <VideoPage />
+        </div>
+    );
 }
 
 export default App;
