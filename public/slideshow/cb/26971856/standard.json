@@ -1,0 +1,120 @@
+{
+    "bar-left": {
+        "width": 4,
+        "height": 17,
+        "offset_x": -81,
+        "offset_y": -51
+    },
+    "bar-mid": {
+        "width": 5,
+        "height": 17,
+        "offset_x": -72,
+        "offset_y": -51
+    },
+    "bar-right": {
+        "width": 4,
+        "height": 17,
+        "offset_x": -77,
+        "offset_y": -51
+    },
+    "first-disabled": {
+        "width": 36,
+        "height": 17,
+        "offset_x": -63,
+        "offset_y": 0
+    },
+    "first-down": {
+        "width": 36,
+        "height": 17,
+        "offset_x": -63,
+        "offset_y": -17
+    },
+    "first": {
+        "x": 0,
+        "width": 36,
+        "height": 17,
+        "offset_x": -63,
+        "offset_y": -34
+    },
+    "next-disabled": {
+        "width": 36,
+        "height": 17,
+        "offset_x": 0,
+        "offset_y": -51
+    },
+    "next-down": {
+        "width": 36,
+        "height": 17,
+        "offset_x": -36,
+        "offset_y": -51
+    },
+    "next": {
+        "x": 604,
+        "width": 36,
+        "height": 17,
+        "offset_x": 0,
+        "offset_y": -68
+    },
+    "play-disabled": {
+        "width": 63,
+        "height": 17,
+        "offset_x": 0,
+        "offset_y": 0
+    },
+    "play-down": {
+        "width": 63,
+        "height": 17,
+        "offset_x": 0,
+        "offset_y": -17
+    },
+    "play": {
+        "x": 36,
+        "width": 63,
+        "height": 17,
+        "offset_x": 0,
+        "offset_y": -34
+    },
+    "previous-disabled": {
+        "width": 36,
+        "height": 17,
+        "offset_x": -99,
+        "offset_y": -34
+    },
+    "previous-down": {
+        "width": 36,
+        "height": 17,
+        "offset_x": -99,
+        "offset_y": -51
+    },
+    "previous": {
+        "x": 532,
+        "width": 36,
+        "height": 17,
+        "offset_x": -99,
+        "offset_y": -68
+    },
+    "stop-disabled": {
+        "width": 36,
+        "height": 17,
+        "offset_x": -36,
+        "offset_y": -68
+    },
+    "stop-down": {
+        "width": 36,
+        "height": 17,
+        "offset_x": -99,
+        "offset_y": -17
+    },
+    "stop": {
+        "x": 568,
+        "width": 36,
+        "height": 17,
+        "offset_x": -99,
+        "offset_y": 0
+    },
+    "text": {
+        "x":482,
+        "width":50,
+        "style":"font-family: Arial; font-size: 14px; color: #9EA2AB;"
+    }
+}

@@ -4,10 +4,10 @@ const VideoPage = () => {
     return (
         <div style={styles.container}>
             <video style={styles.video} controls>
-                {/* Update this path to match the location of your video */}
-                <source src="/videos/video1.mp4" type="video/mp4" />
+                <source src="/videos/video3.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
+            <p style={styles.textCenter}>Test</p>  // Adding the text below the video
         </div>
     );
 };
@@ -15,6 +15,7 @@ const VideoPage = () => {
 const styles = {
     container: {
         display: 'flex',
+        flexDirection: 'column',  // Align children vertically
         justifyContent: 'center',
         alignItems: 'center',
         height: '100vh', // Full height of the viewport
@@ -25,6 +26,10 @@ const styles = {
         maxWidth: '800px', // Maximum width for the video
         borderRadius: '8px', // Rounded corners for aesthetics
         boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', // Subtle shadow for depth
+    },
+    textCenter: {
+        textAlign: 'center', // Center align the text
+        marginTop: '20px', // Space from the video
     }
 };
 

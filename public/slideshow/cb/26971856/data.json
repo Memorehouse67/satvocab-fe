@@ -1,0 +1,130 @@
+{
+  "genericbotname": "Miles",
+  "slides": [
+    {
+      "name": "Slide 1",
+      "id": "100",
+      "type": "title",
+      "title": "My Slideshow",
+      "script": [
+        {
+          "say": "Hello",
+          "do": "greet"
+        }
+      ]
+    },
+    {
+      "name": "Slide 2",
+      "answers": [
+        {
+          "react": [
+            {
+              "say": "that is correct"
+            }
+          ],
+          "id": "922"
+        },
+        {
+          "react": [
+            {
+              "say": "nope try again"
+            }
+          ],
+          "id": "819"
+        }
+      ],
+      "setup": [
+        {
+          "say": "hi there again"
+        }
+      ],
+      "id": "699",
+      "type": "freeform-choice",
+      "items": [
+        {
+          "x": 10,
+          "y": 10,
+          "text": "<p>this is the example</p>",
+          "visible": true,
+          "type": "text"
+        },
+        {
+          "x": 20,
+          "y": 20,
+          "type": "choice",
+          "letter": "A"
+        },
+        {
+          "x": 30,
+          "y": 40,
+          "type": "choice",
+          "letter": "B"
+        }
+      ],
+      "events": []
+    }
+  ],
+  "modulestyle": "head",
+  "width": 640,
+  "style": {
+    "textColor": "#ffffff"
+  },
+  "source": "slidebot",
+  "version": 1,
+  "genericbotgender": "male",
+  "events": [
+    {
+      "event": "continue",
+      "handler": [
+        {
+          "and": "next"
+        }
+      ],
+      "id": "229"
+    }
+  ],
+  "height": 480,
+  "scene": {
+    "mainCharacterNaturalWidth": 250,
+    "mainCharacterIdleData": {
+      "normal": [
+        "idle1-18"
+      ]
+    },
+    "slideTop": 90,
+    "chatAreaPlaceholder": "Type here.",
+    "slideHeight": 300,
+    "slideBackgroundGradient2": "#003366",
+    "slideBackgroundGradient1": "#0066cc",
+    "chatAreaTitle": "Discussion",
+    "playShield": false,
+    "mainCharacterRequiresPng": true,
+    "mainX": 380,
+    "mainBackgroundType": "image",
+    "mainCharacter": "StefanHead",
+    "navbar": "standard",
+    "mainCharacterDensity": 0,
+    "mainCharacterType": "raster",
+    "mainHeight": 200,
+    "mainCharacterNaturalHeight": 200,
+    "slideLeft": 10,
+    "mainBackgroundImage": "stock:OnesAndZeroes250x200.jpg",
+    "mainCharacterStyle": "hd-head",
+    "backgroundType": "gradient",
+    "mainWidth": 250,
+    "mainYOffset": 0,
+    "chatArea": false,
+    "mainY": 10,
+    "slideWidth": 400,
+    "mainCharacterVersion": "1.0",
+    "slideBackgroundType": "transparent",
+    "backgroundGradient1": "#0066cc",
+    "mainVoice": "NeuralMatthew",
+    "mainXOffset": 0,
+    "backgroundGradient2": "#003366",
+    "mainBackgroundGradient2": "#003366",
+    "mainShadow": true,
+    "mainBackgroundGradient1": "#0066cc"
+  },
+  "type": "slideshow"
+}
