@@ -3,11 +3,12 @@ import React from 'react';
 const VideoPage = () => {
     return (
         <div style={styles.container}>
-            <video style={styles.video} controls>
+            <video style={styles.video} autoPlay muted>
+                {/* Update this path to match the location of your video */}
                 <source src="/videos/video3.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
-            <p style={styles.textCenter}>Test</p>  // Adding the text below the video
+            <p style={styles.textCenter}>Test</p> {/* Keep the text centered below the video */}
         </div>
     );
 };
@@ -15,7 +16,7 @@ const VideoPage = () => {
 const styles = {
     container: {
         display: 'flex',
-        flexDirection: 'column',  // Align children vertically
+        flexDirection: 'column', // Align children vertically
         justifyContent: 'center',
         alignItems: 'center',
         height: '100vh', // Full height of the viewport
@@ -28,8 +29,7 @@ const styles = {
         boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', // Subtle shadow for depth
     },
     textCenter: {
-        textAlign: 'center', // Center align the text
-        marginTop: '20px', // Space from the video
+        textAlign: 'center', // Ensure the text is centered
     }
 };
 
