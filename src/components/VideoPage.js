@@ -41,8 +41,8 @@ const styles = {
         backgroundColor: '#f0f0f0', // Clean background color
     },
     video: {
-        width: '80%', // Adjust the width as needed
-        maxWidth: '800px', // Maximum width for the video
+        width: '250px', // Set the width to 250 pixels
+        height: '200px', // Set the height to 200 pixels
         borderRadius: '8px', // Rounded corners for aesthetics
         boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', // Subtle shadow for depth
     },
