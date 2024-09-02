@@ -1,13 +1,31 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
 
 const VideoPage = () => {
+    const [isMuted, setIsMuted] = useState(true);
+    const videoRef = useRef(null);
+
+    const toggleMute = () => {
+        setIsMuted(!isMuted);
+        if (videoRef.current) {
+            videoRef.current.muted = !isMuted;
+        }
+    };
+
     return (
         <div style={styles.container}>
-            <video style={styles.video} autoPlay muted>
-                {/* Update this path to match the location of your video */}
+            <video 
+                style={styles.video} 
+                autoPlay 
+                loop 
+                muted={isMuted} 
+                ref={videoRef}
+            >
                 <source src="/videos/video3.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
+            <button style={styles.button} onClick={toggleMute}>
+                {isMuted ? 'Unmute' : 'Mute'}
+            </button>
             <p style={styles.textCenter}>Test</p> {/* Keep the text centered below the video */}
         </div>
     );
@@ -30,6 +48,12 @@ const styles = {
     },
     textCenter: {
         textAlign: 'center', // Ensure the text is centered
+    },
+    button: {
+        padding: '10px 20px',
+        fontSize: '16px',
+        margin: '10px',
+        cursor: 'pointer',
     }
 };
 
